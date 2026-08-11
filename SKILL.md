@@ -1,7 +1,7 @@
 ---
 name: organizational-knowledge-skill
 description: Use when preparing org knowledge for DANA registration.
-version: 2.0.1
+version: 2.0.2
 author: Mohsen Shaterian
 license: MIT
 platforms: [linux, macos, windows]
@@ -26,6 +26,7 @@ Structures raw organizational knowledge (experiences, suggestions, documents, li
 
 ## Version
 
+2.0.2 — Mandatory report format: the final DANA draft must be rendered as the complete report per `references/dana-draft.md` §8 (all sections + Final Operator Checklist).
 2.0.1 — Hermes-registered: added YAML frontmatter, moved all engines under `references/`, normalized every cross-file reference, LF line endings.
 2.0.0 — restructured into an Orchestrator + Engines + References
 architecture. All engine-specific logic and shared standards were moved
@@ -214,6 +215,14 @@ The final answer should normally contain: (1) knowledge classification,
 final DANA draft, (5) remaining operator actions. Do not expose internal
 reasoning or chain-of-thought — provide conclusions, evidence-based
 explanations, and actionable issues.
+
+**Mandatory report format:** the final DANA draft in (4) must be rendered
+as the complete DANA KNOWLEDGE REGISTRATION DRAFT report defined in
+`references/dana-draft.md` §8 — all eight sections (Registration
+Information, Content, Metadata, Resources, QA Status, Operator Review
+Required, Unresolved Items, Final Operator Checklist), including the
+Operator Review Checklist from `references/dana-draft.md` §6. Never return
+a condensed draft that omits any of these sections.
 
 ---
 
