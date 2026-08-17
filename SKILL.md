@@ -1,7 +1,7 @@
 ---
 name: organizational-knowledge-skill
 description: Use when preparing org knowledge for DANA registration.
-version: 2.0.2
+version: 2.2.0
 author: Mohsen Shaterian
 license: MIT
 platforms: [linux, macos, windows]
@@ -26,6 +26,17 @@ Structures raw organizational knowledge (experiences, suggestions, documents, li
 
 ## Version
 
+2.2.0 — DANA form fidelity: Suggestion engine and draft now use exactly
+the DANA form fields with operator-approved Persian vocabulary (عنوان
+پیشنهاد، درخت دانش، کمیته تخصصی، بذر پیشنهاد، تاثیر اجرای پیشنهاد،
+همکاران، وضع موجود، پیشنهاد بهبود، نتایج حاصل از اجرای پیشنهاد، هشتگها،
+فایل پیوست). Analysis-layer concepts (Problem/Gap, Implementation Logic,
+Evidence, Risks, Transferability) are extraction aids only and must not
+appear as separate fields in the DANA draft — fold them into the closest
+form field (see `references/suggestion.md` §15 and `references/dana-draft.md` §4).
+2.1.0 — Output Rendering: added `references/output-rendering.md` (verified
+PDF via reportlab and Word via python-docx, RTL/bidi rules, table
+direction) and reusable `scripts/make_dana_pdf.py` / `make_dana_docx.py`.
 2.0.2 — Mandatory report format: the final DANA draft must be rendered as the complete report per `references/dana-draft.md` §8 (all sections + Final Operator Checklist).
 2.0.1 — Hermes-registered: added YAML frontmatter, moved all engines under `references/`, normalized every cross-file reference, LF line endings.
 2.0.0 — restructured into an Orchestrator + Engines + References
@@ -79,6 +90,7 @@ live in the files below. Load them as follows:
 | Metadata | `references/metadata.md` + `references/knowledge-tree.md` |
 | Quality Assurance | `references/quality-assurance.md` + `references/knowledge-tree.md` |
 | DANA Draft | `references/dana-draft.md` + `references/knowledge-tree.md` |
+| Output Rendering (PDF & Word) | `references/output-rendering.md` + scripts in `scripts/` |
 
 `references/knowledge-tree.md` is the official, active organizational
 taxonomy (`references/organizational-rules.md` §4) — load it whenever the current
@@ -216,6 +228,12 @@ final DANA draft, (5) remaining operator actions. Do not expose internal
 reasoning or chain-of-thought — provide conclusions, evidence-based
 explanations, and actionable issues.
 
+**Output language:** every label, section header, field name, checklist
+item, and status value shown to the operator is rendered in Persian per
+`references/organizational-rules.md` §26 (Output Language Policy). English
+technical terms, standards, project names, document numbers, and official
+taxonomy values inside the content remain unchanged.
+
 **Mandatory report format:** the final DANA draft in (4) must be rendered
 as the complete DANA KNOWLEDGE REGISTRATION DRAFT report defined in
 `references/dana-draft.md` §8 — all eight sections (Registration
@@ -223,6 +241,11 @@ Information, Content, Metadata, Resources, QA Status, Operator Review
 Required, Unresolved Items, Final Operator Checklist), including the
 Operator Review Checklist from `references/dana-draft.md` §6. Never return
 a condensed draft that omits any of these sections.
+
+**Optional file rendering:** when the operator requests deliverable
+files, render the final draft to a right-to-left Persian PDF and a
+Persian Word (.docx) file per `references/output-rendering.md`, using the
+ready-to-run scripts in `scripts/`.
 
 ---
 

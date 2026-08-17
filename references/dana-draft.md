@@ -48,21 +48,24 @@ Confirmation Required" instead of modifying the value.
 
 # 4. Draft Structure
 
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
+
 Every draft begins with:
 
 ```
-DANA KNOWLEDGE REGISTRATION DRAFT
-Knowledge Type: ...
-QA Status: ...
-Operator Review: Required / Not Required
+پیشنویس ثبت دانش در DANA
+نوع دانش: ...
+وضعیت QA: ...
+بازبینی اپراتور: الزامی / غیر الزامی
 ```
 
 ## Lesson Learned
 ```
-### Registration Type: Lesson Learned
-### Title / Knowledge Tree / Procedure and Processes / Project /
-### Organizational Scope / Access Level / Colleagues /
-### Lesson Learned Description / Execution Result / Hashtags / Image / Attachments
+### نوع ثبت: درس آموخته
+### عنوان / درخت دانش / رویه و فرآیندها / پروژه /
+### محدوده سازمانی / سطح دسترسی / همکاران /
+### شرح درس آموخته / نتیجه اجرا / هشتگها / تصویر / فایل پیوست
 ```
 Present the Description in logical order: Context/Situation → Problem or
 Challenge → Action/Experience → Result → Lesson Learned → Practical
@@ -75,20 +78,29 @@ merely for style.
 
 ## Suggestion
 ```
-### Registration Type: Suggestion
-### Title / Knowledge Tree / Specialized Committee / Suggestion Seed /
-### Impact of Implementation / Colleagues / Current State /
-### Proposed Improvement / Results of Implementation / Hashtags / Attachments
+### نوع ثبت: پیشنهاد
+### عنوان پیشنهاد / درخت دانش / کمیته تخصصی / بذر پیشنهاد /
+### تاثیر اجرای پیشنهاد / همکاران / وضع موجود /
+### پیشنهاد بهبود / نتایج حاصل از اجرای پیشنهاد / هشتگها / فایل پیوست
 ```
 Present in logical order: Current State → Problem/Opportunity → Proposed
 Improvement → Expected Impact → Implementation Status → Actual Results.
 Include only what's actually available; keep expected benefits clearly
 separated from actual results.
 
+**DANA form fields only.** The draft must show exactly the DANA form
+fields listed above — nothing more. Analysis-layer concepts used to build
+the content (Problem/Gap/Opportunity, Implementation Logic, Evidence,
+Risks, Transferability — see `references/suggestion.md` §3/§4) are
+extraction aids only and must NOT appear as separate headings or fields
+in the DANA draft. Fold their content into the closest form field
+(e.g. Problem/Gap into «وضع موجود», Implementation Logic into
+«پیشنهاد بهبود»).
+
 ## Explicit Knowledge
 ```
-### Knowledge Type / Title / Description / Knowledge Tree /
-### Organizational Scope / Project / Hashtags / Attachments
+### نوع دانش / عنوان / شرح / درخت دانش /
+### محدوده سازمانی / پروژه / هشتگها / فایل پیوست
 ```
 Knowledge Type must be one of the nine organizational subtypes. Preserve
 the classification produced upstream — this engine must not reclassify
@@ -124,7 +136,23 @@ Every draft ends with a checklist: Knowledge Type confirmed / Knowledge
 Tree confirmed / Project confirmed / Organizational Scope confirmed /
 Access Level confirmed / Colleagues confirmed / Content reviewed /
 Attachments reviewed / Hashtags reviewed / QA issues resolved / Final
-draft approved for DANA entry.
+draft approved for DANA entry. Rendered in Persian per
+`references/organizational-rules.md` §26:
+
+```
+چکلیست نهایی اپراتور
+[ ] نوع دانش تأیید شد
+[ ] درخت دانش تأیید شد
+[ ] پروژه تأیید شد
+[ ] محدوده سازمانی تأیید شد
+[ ] سطح دسترسی تأیید شد
+[ ] همکاران تأیید شدند
+[ ] محتوا بازبینی شد
+[ ] فایل پیوست بازبینی شد
+[ ] هشتگها بازبینی شدند
+[ ] مسائل QA حل شدند
+[ ] پیشنویس نهایی برای ثبت در DANA تأیید شد
+```
 
 ## Unresolved Items
 List any remaining items, each explaining what the operator needs to
@@ -145,16 +173,19 @@ accurately represented; operator actions are clearly identified.
 
 # 8. Output Contract
 
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
+
 ```
-# DANA KNOWLEDGE REGISTRATION DRAFT
-## Registration Information
-## Content
-## Metadata
-## Resources
-## QA Status
-## Operator Review Required
-## Unresolved Items
-## Final Operator Checklist
+# پیشنویس ثبت دانش در DANA
+## اطلاعات ثبت
+## محتوا
+## فراداده
+## منابع
+## وضعیت QA
+## بازبینی اپراتور الزامی است
+## موارد حلنشده
+## چکلیست نهایی اپراتور
 ```
 
 ---

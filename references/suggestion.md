@@ -243,38 +243,37 @@ non-fabrication.
 
 # 15. Output Contract
 
-## A. Analysis
-Knowledge Type: Suggestion
-Suggestion Status: New / Partially Implemented / Implemented / Unknown
-Confidence: High / Medium / Low
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
 
-## B. Extracted Proposal
-Current State: / Problem, Gap or Opportunity: / Cause or Contributing
-Factors: / Proposed Improvement: / Implementation Logic: / Expected
-Impact: / Evidence: / Potential Risks: / Transferability:
+## الف. تحلیل
+نوع دانش: پیشنهاد
+وضعیت پیشنهاد: جدید / پیادهسازی جزئی / پیادهسازیشده / نامشخص
+اطمینان: بالا / متوسط / پایین
 
-## C. Implementation
-Implementation Status: Not Implemented / Partially Implemented / Fully
-Implemented / Unknown
-Actual Result: / Result Evidence:
+## ب. پیشنهاد استخراجشده
+این بخش **لایه تحلیل استخراج است، نه فیلدهای فرم DANA**. مقصود از آن،
+درونیابی محتوای هر فیلد فرم است — بنابراین این عناصر بهصورت تیتر/فیلد
+مستقل در پیشنویس DANA ظاهر نمیشوند. فقط `suggestion.md` §3 و §4 را برای
+ساختن محتوای فیلدهای `ت. فراداده ثبت` و `ج. پیشنویس DANA` بهکار بگیر.
 
-## D. Registration Metadata
-Title: / Knowledge Tree: / Specialized Committee: / Suggestion Seed: /
-Impact of Implementation: / Colleagues: / Current State: / Proposed
-Improvement: / Results of Implementation: / Access Level: Normal /
-Confidential / Highly Confidential / Hashtags: / Attachments:
+وضع موجود: / مشکل، شکاف یا فرصت: / علت یا عوامل مؤثر: / پیشنهاد بهبود: / منطق پیادهسازی: / اثر مورد انتظار: / شواهد: / ریسکهای بالقوه: / قابلیت انتقال:
 
-## E. Missing Information
-Critical: / Important: / Optional:
+## پ. پیادهسازی
+وضعیت پیادهسازی: پیادهسازینشده / پیادهسازی جزئی / پیادهسازیشده کامل / نامشخص
+نتیجه واقعی: / شواهد نتیجه:
 
-## F. DANA Draft
-Title of Suggestion / Current State / Proposed Improvement / Impact of
-Implementation / Results of Implementation
+## ت. فراداده ثبت
+عنوان پیشنهاد: / درخت دانش: / کمیته تخصصی: / بذر پیشنهاد: / تاثیر اجرای پیشنهاد: / همکاران: / وضع موجود: / پیشنهاد بهبود: / نتایج حاصل از اجرای پیشنهاد: / سطح دسترسی: عادی / محرمانه / کاملاً محرمانه / هشتگها: / فایل پیوست:
 
-## G. Quality Review
-Problem Clarity: / Proposal Clarity: / Expected Impact: / Evidence
-Quality: / Implementation Feasibility Information: / Potential Innovation:
-/ Potential Transferability: / Potential Duplication: / Information Gaps:
+## ث. اطلاعات ناقص
+حیاتی: / مهم: / اختیاری:
+
+## ج. پیشنویس DANA
+عنوان پیشنهاد / وضع موجود / پیشنهاد بهبود / تاثیر اجرای پیشنهاد / نتایج حاصل از اجرای پیشنهاد
+
+## چ. بازبینی کیفیت
+وضوح مسئله: / وضوح پیشنهاد: / اثر مورد انتظار: / کیفیت شواهد: / اطلاعات امکانسنجی پیادهسازی: / نوآوری احتمالی: / قابلیت انتقال احتمالی: / احتمال تکراریبودن: / شکافهای اطلاعاتی:
 
 ---
 

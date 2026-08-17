@@ -260,33 +260,29 @@ the source:
 
 # 12. Output Contract
 
-## A. Classification
-Knowledge Type: / Confidence: High / Medium / Low / Alternative Type: /
-Reason: / Operator Confirmation Required: Yes / No
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
 
-## B. Resource Identification
-Title: / Author or Creator: / Organization or Publisher: / Publication
-Date: / Edition or Version: / Identifier: / URL:
+## الف. طبقهبندی
+نوع دانش: / اطمینان: بالا / متوسط / پایین / نوع جایگزین: / دلیل: / نیازمند تأیید اپراتور: بله / خیر
 
-## C. Knowledge Extraction
-Main Subject: / Purpose: / Key Topics: / Main Findings or Conclusions: /
-Practical Value: / Organizational Relevance:
+## ب. شناسایی منبع
+عنوان: / نویسنده یا پدیدآورنده: / سازمان یا ناشر: / تاریخ انتشار: / ویرایش یا نسخه: / شناسه: / نشانی (URL):
 
-## D. Organizational Metadata
-Knowledge Tree: / Organizational Scope: / Project: / Access Level: Normal
-/ Confidential / Highly Confidential / Hashtags: / Attachments:
+## پ. استخراج دانش
+موضوع اصلی: / هدف: / موضوعات کلیدی: / یافتهها یا نتیجهگیریهای اصلی: / ارزش عملی: / ارتباط سازمانی:
 
-## E. Missing Information
-Critical: / Important: / Optional:
+## ت. فراداده سازمانی
+درخت دانش: / محدوده سازمانی: / پروژه: / سطح دسترسی: عادی / محرمانه / کاملاً محرمانه / هشتگها: / فایل پیوست:
 
-## F. DANA Draft
-Knowledge Type / Title / Description / Knowledge Tree / Organizational
-Scope / Project / Hashtags / Attachment or URL
+## ث. اطلاعات ناقص
+حیاتی: / مهم: / اختیاری:
 
-## G. Quality Review
-Classification Confidence: / Content Understanding: / Metadata
-Completeness: / Organizational Relevance: / Potential Duplication: /
-Information Gaps:
+## ج. پیشنویس DANA
+نوع دانش / عنوان / شرح / درخت دانش / محدوده سازمانی / پروژه / هشتگها / پیوست یا نشانی (URL)
+
+## چ. بازبینی کیفیت
+اطمینان طبقهبندی: / درک محتوا: / کاملبودن فراداده: / ارتباط سازمانی: / احتمال تکراریبودن: / شکافهای اطلاعاتی:
 
 ---
 

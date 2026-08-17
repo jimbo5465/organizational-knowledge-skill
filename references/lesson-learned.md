@@ -202,34 +202,31 @@ structured enough to be searchable.
 
 # 14. Output Contract
 
-## A. Analysis
-Knowledge Type: Lesson Learned
-Experience Type: Successful / Unsuccessful / Mixed / Improvement / Other
-Confidence: High / Medium / Low
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
 
-## B. Extracted Experience
-Context: / Situation: / Problem or Opportunity: / Cause or Contributing
-Factors: / Action: / Actual Result:
+## الف. تحلیل
+نوع دانش: درس آموخته
+نوع تجربه: موفق / ناموفق / ترکیبی / بهبود / سایر
+اطمینان: بالا / متوسط / پایین
 
-## C. Extracted Knowledge
-Core Lesson: / Transferability: Direct / Conditional / General Principle /
-Limited / Recommendation:
+## ب. تجربه استخراجشده
+زمینه: / وضعیت: / مشکل یا فرصت: / علت یا عوامل مؤثر: / اقدام: / نتیجه واقعی:
 
-## D. Registration Metadata
-Title: / Knowledge Tree: / Procedure or Process: / Project: /
-Organizational Scope: / Access Level: Normal / Confidential / Highly
-Confidential / Colleagues: / Hashtags: / Attachments:
+## پ. دانش استخراجشده
+درس اصلی: / قابلیت انتقال: مستقیم / مشروط / اصل کلی / محدود / توصیه:
 
-## E. Missing Information
-Critical: / Important: / Optional:
+## ت. فراداده ثبت
+عنوان: / درخت دانش: / رویه یا فرآیند: / پروژه: / محدوده سازمانی: / سطح دسترسی: عادی / محرمانه / کاملاً محرمانه / همکاران: / هشتگها: / فایل پیوست:
 
-## F. DANA Draft
-Title / Lesson Description / Execution Result
+## ث. اطلاعات ناقص
+حیاتی: / مهم: / اختیاری:
 
-## G. Quality Review
-Clarity and Completeness: / Technical Support: / Practical Usefulness: /
-Potential Rework Reduction: / Potential Novelty: / Potential Duplication:
-/ Potential Impact:
+## ج. پیشنویس DANA
+عنوان / شرح درس آموخته / نتیجه اجرا
+
+## چ. بازبینی کیفیت
+شفافیت و کاملبودن: / پشتیبانی فنی: / کاربردیبودن: / کاهش احتمالی دوبارهکاری: / تازگی احتمالی: / احتمال تکراریبودن: / تأثیر احتمالی:
 
 ---
 

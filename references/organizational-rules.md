@@ -340,3 +340,144 @@ one of:
 
 Never present a Low-confidence result as definitive, and never upgrade
 confidence merely because a value sounds plausible.
+
+---
+
+# 26. Output Language Policy
+
+The Skill's internal documents remain in English, but **every output
+label, section header, field name, checklist item, status value, and
+prompt/question rendered to the operator must be in Persian**, in the
+dominant language of the source (per §11). English technical terms,
+standards, project names, document numbers, official taxonomy values, and
+proper nouns inside the content stay unchanged.
+
+## 26.1 Mandatory Label Mapping
+
+Render operator-facing labels using the canonical Persian mapping below.
+Use these exactly; do not invent alternative Persian spellings for the
+same label.
+
+| English Label | Persian Label |
+|---|---|
+| Knowledge Classification | طبقهبندی دانش |
+| Primary Type | نوع اصلی |
+| Explicit Knowledge Subtype | زیرنوع دانش صریح |
+| Classification Confidence | اطمینان طبقهبندی |
+| Classification Basis | مبنای طبقهبندی |
+| Evidence | شواهد |
+| Secondary Knowledge Elements | عناصر دانش ثانویه |
+| User Intended Type | نوع مدنظر کاربر |
+| Classification Conflict | تعارض طبقهبندی |
+| Reasoning Summary | جمعبندی استدلال |
+| Required Clarification | ابهامات نیازمند پرسش |
+| Knowledge Type | نوع دانش |
+| Knowledge Subtype | زیرنوع دانش |
+| Title | عنوان |
+| Description | شرح |
+| Context | زمینه |
+| Situation | وضعیت |
+| Problem, Gap or Opportunity | مشکل، شکاف یا فرصت |
+| Cause or Contributing Factors | علت یا عوامل مؤثر |
+| Action | اقدام |
+| Actual Result | نتیجه واقعی |
+| Core Lesson | درس اصلی |
+| Lesson Learned | درس آموخته |
+| Lesson Description | شرح درس آموخته |
+| Execution Result | نتیجه اجرا |
+| Transferability | قابلیت انتقال |
+| Recommendation | توصیه |
+| Current State | وضع موجود |
+| Proposed Improvement | پیشنهاد بهبود |
+| Implementation Logic | منطق پیادهسازی |
+| Expected Impact | اثر مورد انتظار |
+| Implementation Status | وضعیت پیادهسازی |
+| Actual Implementation | اجرای انجامشده |
+| Evidence | شواهد |
+| Potential Risks | ریسکهای بالقوه |
+| Suggestion Status | وضعیت پیشنهاد |
+| Resource Identity | هویت منبع |
+| Resource Metadata | فراداده منبع |
+| Main Subject | موضوع اصلی |
+| Main Findings or Conclusions | یافتهها یا نتیجهگیریهای اصلی |
+| Practical Value | ارزش عملی |
+| Organizational Relevance | ارتباط سازمانی |
+| Knowledge Tree | درخت دانش |
+| Organizational Scope | محدوده سازمانی |
+| Project | پروژه |
+| Procedure or Process | رویه یا فرآیند |
+| Access Level | سطح دسترسی |
+| Colleagues | همکاران |
+| Specialized Committee | کمیته تخصصی |
+| Suggestion Seed | بذر پیشنهاد |
+| Suggestion Title | عنوان پیشنهاد |
+| Impact of Implementation | تاثیر اجرای پیشنهاد |
+| Results of Implementation | نتایج حاصل از اجرای پیشنهاد |
+| Hashtags | هشتگها |
+| Attachments | فایل پیوست |
+| Primary Resource | منبع اصلی |
+| Source Language | زبان منبع |
+| Missing Information | اطلاعات ناقص |
+| Critical | حیاتی |
+| Important | مهم |
+| Optional | اختیاری |
+| Metadata Confidence | اطمینان فراداده |
+| Operator Confirmation Required | نیازمند تأیید اپراتور |
+| Registration Information | اطلاعات ثبت |
+| Content | محتوا |
+| Metadata | فراداده |
+| Resources | منابع |
+| QA Status | وضعیت QA |
+| Operator Review Required | بازبینی اپراتور الزامی است |
+| Unresolved Items | موارد حلنشده |
+| Final Operator Checklist | چکلیست نهایی اپراتور |
+| Operator Review | بازبینی اپراتور |
+| Overall Status | وضعیت کلی |
+| Quality Scores | امتیازهای کیفیت |
+| Critical Issues | مسائل حیاتی |
+| High Issues | مسائل مهم |
+| Medium Issues | مسائل متوسط |
+| Low Issues | مسائل جزئی |
+| Unsupported Claims | ادعاهای بیپشتوانه |
+| Metadata Issues | مسائل فراداده |
+| Classification Issues | مسائل طبقهبندی |
+| Contradictions | تناقضها |
+| Operator Actions | اقدامات اپراتور |
+| Final QA Decision | تصمیم نهایی QA |
+| Quality Review | بازبینی کیفیت |
+| Problem Clarity | وضوح مسئله |
+| Proposal Clarity | وضوح پیشنهاد |
+| Evidence Quality | کیفیت شواهد |
+| Potential Duplication | احتمال تکراریبودن |
+| Information Gaps | شکافهای اطلاعاتی |
+| Confidence | اطمینان |
+| Not Implemented | پیادهسازینشده |
+| Partially Implemented | پیادهسازی جزئی |
+| Fully Implemented | پیادهسازیشده کامل |
+| Implementation Status Unknown | وضعیت پیادهسازی نامشخص |
+| Not Provided | ارائه نشده |
+| Not Specified | مشخص نشده |
+| Recommended | پیشنهادی |
+| Confirmed | تأییدشده |
+| Unknown | نامشخص |
+| Not Applicable / N/A | قابل اعمال نیست |
+| Pass | قبول |
+| Review Required | نیازمند بازبینی |
+| Fail | رد |
+| New | جدید |
+
+## 26.2 Application
+
+- All four engine Output Contracts (§ Output Contract in each engine file)
+  and the DANA Draft structure (references/dana-draft.md §4, §6, §8) are
+  rendered with these Persian labels.
+- Status values such as High / Medium / Low, Pass / Review Required /
+  Fail, Confirmed / Recommended / Unknown are also rendered in Persian
+  (High → بالا، Medium → متوسط، Low → پایین; Confirm→ تأیید، etc.) while
+  the technical meaning is preserved.
+- English abbreviations and technical terms that have no Persian
+  equivalent (e.g. DANA, QA, DCS, PLC, Holiday Test, Knowledge Tree as a
+  taxonomy name) are kept in English inside the Persian output.
+- This policy governs display only. Internal processing logic and the
+  canonical English field names in `references/common-knowledge-object.md`
+  remain unchanged.

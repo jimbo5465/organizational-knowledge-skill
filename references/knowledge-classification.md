@@ -205,20 +205,23 @@ Ambiguous or ask a clarification question instead.
 
 # 13. Output Contract
 
-```
-KNOWLEDGE CLASSIFICATION
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
 
-Primary Type: [Lesson Learned / Suggestion / Explicit Knowledge / Ambiguous]
-Explicit Knowledge Subtype: [... / N/A — populate only when Primary Type = Explicit Knowledge]
-Confidence: [High / Medium / Low]
-Evidence:
+```
+طبقهبندی دانش
+
+نوع اصلی: [درس آموخته / پیشنهاد / دانش صریح / مبهم]
+زیرنوع دانش صریح: [... / قابل اعمال نیست — فقط وقتی نوع اصلی = دانش صریح]
+اطمینان: [بالا / متوسط / پایین]
+شواهد:
 - ...
-Secondary Knowledge Elements:
+عناصر دانش ثانویه:
 - ...
-User Intended Type: [if provided]
-Classification Conflict: [Yes / No]
-Reasoning Summary: [concise explanation]
-Required Clarification: [questions, if needed]
+نوع مدنظر کاربر: [در صورت ارائه]
+تعارض طبقهبندی: [بله / خیر]
+جمعبندی استدلال: [توضیح مختصر]
+ابهامات نیازمند پرسش: [در صورت نیاز]
 ```
 
 ---

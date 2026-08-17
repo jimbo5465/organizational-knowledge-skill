@@ -101,12 +101,12 @@ Field-specific rules:
   summarizing.
 
 ## Suggestion
-Fields: Title, Knowledge Tree, Specialized Committee, Suggestion Seed,
+Fields: Suggestion Title, Knowledge Tree, Specialized Committee, Suggestion Seed,
 Impact of Implementation, Colleagues, Current State, Proposed Improvement,
 Results of Implementation, Hashtags, Attachment.
 
 Field-specific rules:
-- **Title / Knowledge Tree / Colleagues / Current State / Proposed
+- **Suggestion Title / Knowledge Tree / Colleagues / Current State / Proposed
   Improvement:** same rules as the Lesson Learned equivalents above.
 - **Specialized Committee:** the current system's committee is "کمیته
   پیشنهادات مدیریت پروژه" — do not invent additional committees; use
@@ -222,30 +222,29 @@ knowledge type).
 
 # 12. Output Contract
 
-## A. Classification
-Knowledge Type: / Knowledge Subtype: / Classification Confidence:
+All labels below are rendered in Persian per `references/organizational-rules.md`
+§26 (Output Language Policy). English technical terms remain unchanged.
 
-## B. Confirmed Metadata
-Title: / Knowledge Tree: / Procedure or Process: / Project: /
-Organizational Scope: / Access Level: / Colleagues: / Specialized
-Committee: / Suggestion Seed:
+## الف. طبقهبندی
+نوع دانش: / زیرنوع دانش: / اطمینان طبقهبندی:
 
-## C. Content Mapping
-Description: / Lesson Learned: / Execution Result: / Current State: /
-Proposed Improvement: / Impact of Implementation: / Results of
-Implementation:
+## ب. فراداده تأییدشده
+عنوان: / درخت دانش: / رویه یا فرآیند: / پروژه: / محدوده سازمانی: / سطح دسترسی: / همکاران: / کمیته تخصصی: / بذر پیشنهاد:
 
-## D. Discoverability
-Hashtags:
+## پ. نگاشت محتوا
+شرح: / درس آموخته: / نتیجه اجرا: / وضع موجود: / پیشنهاد بهبود: / تاثیر اجرای پیشنهاد: / نتایج حاصل از اجرای پیشنهاد:
 
-## E. Resources
-Primary Resource: / Attachments: / Images:
+## ت. قابلیت جستجو
+هشتگها:
 
-## F. Metadata Status
-Confirmed: / Recommended: / Unknown: / Conflicts:
+## ث. منابع
+منبع اصلی: / فایل پیوست: / تصاویر:
 
-## G. Operator Actions
-Required: / Recommended: / Optional:
+## ج. وضعیت فراداده
+تأییدشده: / پیشنهادی: / نامشخص: / تعارضها:
+
+## چ. اقدامات اپراتور
+الزامی: / توصیهشده: / اختیاری:
 
 ---
 
