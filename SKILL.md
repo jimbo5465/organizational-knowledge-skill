@@ -1,7 +1,7 @@
 ---
 name: organizational-knowledge-skill
 description: Use when preparing org knowledge for DANA registration.
-version: 2.2.0
+version: 2.3.0
 author: Mohsen Shaterian
 license: MIT
 platforms: [linux, macos, windows]
@@ -26,6 +26,14 @@ Structures raw organizational knowledge (experiences, suggestions, documents, li
 
 ## Version
 
+2.3.0 — Impact fidelity for Suggestion: the DANA field «تاثیر اجرای
+پیشنهاد» is now a two-value field (کیفی/کمی) — the engine selects one
+based on the dominant effect in the source (figures → کمی, descriptive →
+کیفی). «نتایج حاصل از اجرای پیشنهاد» is now populated with the expected
+impact content explicitly marked (اثر مورد انتظار — تأیید نشده) instead
+of "Not Implemented", since a Suggestion has not been implemented (if it
+had observable outcomes it would be a Lesson Learned). See
+`references/suggestion.md` §5 and `references/metadata.md` §6.
 2.2.0 — DANA form fidelity: Suggestion engine and draft now use exactly
 the DANA form fields with operator-approved Persian vocabulary (عنوان
 پیشنهاد، درخت دانش، کمیته تخصصی، بذر پیشنهاد، تاثیر اجرای پیشنهاد،

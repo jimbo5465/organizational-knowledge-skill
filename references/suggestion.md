@@ -88,8 +88,28 @@ business opportunity). Stays explicitly prospective unless actual evidence
 exists — "expected to reduce manual processing time," not "reduces manual
 processing time," unless implementation evidence exists.
 
+**Impact Type (کیفی/کمی).** The DANA field "تاثیر اجرای پیشنهاد" accepts
+only two values — **کیفی** (Qualitative) or **کمی** (Quantitative). Select
+based on the DOMINANT effect in the source document:
+
+- If the expected impact is expressed with measurable figures — monetary
+  savings, days/hours saved, percentages, quantities, headcount — choose
+  **کمی**.
+- If the impact is only qualitative/descriptive — improved quality, safety,
+  satisfaction, ease, reduced risk, without figures — choose **کیفی**.
+- When both exist, pick the one that dominates the document's framing;
+  never output both and never write a paragraph in this field.
+
 **Actual Result** — what actually happened after implementation. If none
 available: "Not provided."
+
+**Results of Implementation in the DANA draft.** In the Suggestion engine
+the proposal has NOT been implemented (if it were implemented with
+observed outcomes, classification would be Lesson Learned instead).
+Therefore the DANA field "نتایج حاصل از اجرای پیشنهاد" is populated with
+the expected impact content, explicitly marked as anticipated —
+`(اثر مورد انتظار — تأیید نشده)` appended. Never present expected effects
+as confirmed actual results, and never answer "Not Implemented."
 
 ---
 
@@ -257,20 +277,20 @@ All labels below are rendered in Persian per `references/organizational-rules.md
 مستقل در پیشنویس DANA ظاهر نمیشوند. فقط `suggestion.md` §3 و §4 را برای
 ساختن محتوای فیلدهای `ت. فراداده ثبت` و `ج. پیشنویس DANA` بهکار بگیر.
 
-وضع موجود: / مشکل، شکاف یا فرصت: / علت یا عوامل مؤثر: / پیشنهاد بهبود: / منطق پیادهسازی: / اثر مورد انتظار: / شواهد: / ریسکهای بالقوه: / قابلیت انتقال:
+وضع موجود: / مشکل، شکاف یا فرصت: / علت یا عوامل مؤثر: / پیشنهاد بهبود: / منطق پیادهسازی: / اثر مورد انتظار: / نوع اثر (کیفی/کمی): / شواهد: / ریسکهای بالقوه: / قابلیت انتقال:
 
 ## پ. پیادهسازی
 وضعیت پیادهسازی: پیادهسازینشده / پیادهسازی جزئی / پیادهسازیشده کامل / نامشخص
 نتیجه واقعی: / شواهد نتیجه:
 
 ## ت. فراداده ثبت
-عنوان پیشنهاد: / درخت دانش: / کمیته تخصصی: / بذر پیشنهاد: / تاثیر اجرای پیشنهاد: / همکاران: / وضع موجود: / پیشنهاد بهبود: / نتایج حاصل از اجرای پیشنهاد: / سطح دسترسی: عادی / محرمانه / کاملاً محرمانه / هشتگها: / فایل پیوست:
+عنوان پیشنهاد: / درخت دانش: / کمیته تخصصی: / بذر پیشنهاد: / تاثیر اجرای پیشنهاد: **کیفی یا کمی** / همکاران: / وضع موجود: / پیشنهاد بهبود: / نتایج حاصل از اجرای پیشنهاد: **اثر مورد انتظار با علامت (اثر مورد انتظار — تأیید نشده)** / سطح دسترسی: عادی / محرمانه / کاملاً محرمانه / هشتگها: / فایل پیوست:
 
 ## ث. اطلاعات ناقص
 حیاتی: / مهم: / اختیاری:
 
 ## ج. پیشنویس DANA
-عنوان پیشنهاد / وضع موجود / پیشنهاد بهبود / تاثیر اجرای پیشنهاد / نتایج حاصل از اجرای پیشنهاد
+عنوان پیشنهاد / وضع موجود / پیشنهاد بهبود / تاثیر اجرای پیشنهاد (کیفی/کمی) / نتایج حاصل از اجرای پیشنهاد (اثر مورد انتظار با علامت)
 
 ## چ. بازبینی کیفیت
 وضوح مسئله: / وضوح پیشنهاد: / اثر مورد انتظار: / کیفیت شواهد: / اطلاعات امکانسنجی پیادهسازی: / نوآوری احتمالی: / قابلیت انتقال احتمالی: / احتمال تکراریبودن: / شکافهای اطلاعاتی:

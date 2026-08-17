@@ -412,6 +412,8 @@ same label.
 | Suggestion Seed | بذر پیشنهاد |
 | Suggestion Title | عنوان پیشنهاد |
 | Impact of Implementation | تاثیر اجرای پیشنهاد |
+| Qualitative Impact | کیفی |
+| Quantitative Impact | کمی |
 | Results of Implementation | نتایج حاصل از اجرای پیشنهاد |
 | Hashtags | هشتگها |
 | Attachments | فایل پیوست |

@@ -88,6 +88,17 @@ Improvement → Expected Impact → Implementation Status → Actual Results.
 Include only what's actually available; keep expected benefits clearly
 separated from actual results.
 
+**تاثیر اجرای پیشنهاد is a two-value field.** Output exactly one of
+**کیفی** or **کمی** (see `references/suggestion.md` §5 for the selection
+rule — base it on the dominant effect in the document). Never write a
+sentence in this field.
+
+**نتایج حاصل از اجرای پیشنهاد is filled with the expected impact.** Since
+a Suggestion has not been implemented, this field carries the expected
+impact content with the explicit marker `(اثر مورد انتظار — تأیید نشده)`
+appended. Never answer "Not Implemented," and never present expected
+effects as confirmed actual results.
+
 **DANA form fields only.** The draft must show exactly the DANA form
 fields listed above — nothing more. Analysis-layer concepts used to build
 the content (Problem/Gap/Opportunity, Implementation Logic, Evidence,

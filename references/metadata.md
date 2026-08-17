@@ -113,10 +113,21 @@ Field-specific rules:
   whatever committee configuration is currently provided if it changes.
 - **Suggestion Seed:** if no selectable value exists, "Not Specified" —
   never invent one.
-- **Impact of Implementation:** maps from Expected Impact; if actually
-  implemented, keep expected impact and actual result distinct.
-- **Results of Implementation:** populate only with actual results. If not
-  implemented: "Not Implemented." If unknown: "Unknown."
+- **Impact of Implementation:** a DANA field with only two selectable
+  values — **کیفی** (Qualitative) or **کمی** (Quantitative). The engine
+  MUST output one of these two values (see
+  `references/suggestion.md` §5 for the selection rule — base it on the
+  dominant effect in the source document, e.g. monetary/time/percentage
+  figures → کمی; only qualitative/descriptive effects → کیفی). Do not
+  write a paragraph here.
+- **Results of Implementation:** in the Suggestion engine the proposal has
+  not been implemented (if it were implemented with observed outcomes it
+  would be a Lesson Learned, not a Suggestion). Therefore populate this
+  field with the expected impact content from the Impact section, marked
+  as anticipated: `(اثر مورد انتظار — تأیید نشده)`. Never write
+  "Not Implemented" or "Not provided" here, and never present expected
+  effects as confirmed actual results. If no expected impact exists:
+  "Not provided."
 
 ## Explicit Knowledge
 Fields: Knowledge Type, Title, Description, Knowledge Tree, Organizational
